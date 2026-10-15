@@ -1,0 +1,10 @@
+Execução adicional em 14/10/2026
+Exit code: 0
+
+==========================================================
+ Starlight Engine -- Architectural Boundary Audit Tool
+ Enforcing ADR-SL-016 (MonoGame Isolation) and Build Boundary
+==========================================================
+[INFO] Source directory 'src' does not exist yet.
+[INFO] No boundary violations detected (clean baseline state).
+

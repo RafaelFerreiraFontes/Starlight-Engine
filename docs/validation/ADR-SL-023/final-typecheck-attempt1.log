@@ -1,0 +1,7 @@
+
+> starlight-editorial-prototype@0.1.0 typecheck C:\Users\fedet\OneDrive\Documentos\Web Projects\Starlight-Engine\editor\frontend
+> tsc --noEmit
+
+ ELIFECYCLE  Command failed with exit code -4058.
+
+EXIT_CODE=-4058

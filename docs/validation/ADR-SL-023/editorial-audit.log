@@ -1,0 +1,3 @@
+$ node scripts/audit-editorial.mjs
+Editorial boundary audit: 13 TypeScript source files checked
+PASS: 0 violations; static checks only, not a C# transitive dependency proof.

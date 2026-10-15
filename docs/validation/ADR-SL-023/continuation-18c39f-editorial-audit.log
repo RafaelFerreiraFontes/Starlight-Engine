@@ -1,0 +1,10 @@
+Execução adicional em 14/10/2026
+Exit code: 0
+
+
+> starlight-editorial-prototype@0.1.0 audit:editorial C:\Users\fedet\OneDrive\Documentos\Web Projects\Starlight-Engine\editor\frontend
+> node scripts/audit-editorial.mjs
+
+Editorial boundary audit: 14 TypeScript source files checked
+PASS: 0 violations; static checks only, not a C# transitive dependency proof.
+

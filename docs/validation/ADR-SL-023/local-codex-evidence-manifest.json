@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-14",
+  "toolchain": {
+    "node": "24.19.0",
+    "pnpm": "10.28.2"
+  },
+  "commands": [
+    {
+      "command": "pnpm install --frozen-lockfile",
+      "cwd": "C:/Users/fedet/OneDrive/Documentos/Web Projects/Starlight-Engine/editor/frontend",
+      "exitCode": 0,
+      "log": "local-codex-final-install.log"
+    },
+    {
+      "command": "pnpm typecheck",
+      "cwd": "C:/Users/fedet/OneDrive/Documentos/Web Projects/Starlight-Engine/editor/frontend",
+      "exitCode": 0,
+      "log": "local-codex-final-typecheck.log"
+    },
+    {
+      "command": "pnpm test",
+      "cwd": "C:/Users/fedet/OneDrive/Documentos/Web Projects/Starlight-Engine/editor/frontend",
+      "exitCode": 0,
+      "log": "local-codex-final-test.log"
+    },
+    {
+      "command": "pnpm build",
+      "cwd": "C:/Users/fedet/OneDrive/Documentos/Web Projects/Starlight-Engine/editor/frontend",
+      "exitCode": 0,
+      "log": "local-codex-final-build.log"
+    },
+    {
+      "command": "pnpm audit:editorial",
+      "cwd": "C:/Users/fedet/OneDrive/Documentos/Web Projects/Starlight-Engine/editor/frontend",
+      "exitCode": 0,
+      "log": "local-codex-final-editorial-audit.log"
+    },
+    {
+      "command": "./.github/skills/starlight-boundary-audit/scripts/check-boundaries.ps1",
+      "cwd": "C:/Users/fedet/OneDrive/Documentos/Web Projects/Starlight-Engine",
+      "exitCode": 0,
+      "log": "local-codex-final-boundary-audit.log"
+    }
+  ],
+  "artifact": {
+    "bytes": 1434002,
+    "sha256": "02d283fb9206935ffdf065b23aa7b9528ad7ac57cf9be131fa4459a822edecb1",
+    "buildOutput": "C:/Users/fedet/AppData/Local/Starlight/editorial-builds/f13d0f2d6bd7/index.html",
+    "repositoryCopy": "editor/frontend/dist/index.html",
+    "openDesignCopy": "starlight-editorial-preview.html"
+  },
+  "tests": {
+    "files": 4,
+    "passed": 50
+  },
+  "limits": {
+    "tauri": "NOT RUN",
+    "monogameComparison": "NOT RUN",
+    "realGpuContextLoss": "MANUAL VALIDATION REQUIRED",
+    "memoryStartupLatency": "NOT MEASURED",
+    "csharpBoundaryAudit": "BASELINE ONLY: root src absent"
+  }
+}

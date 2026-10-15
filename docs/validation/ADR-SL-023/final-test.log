@@ -1,0 +1,19 @@
+
+> starlight-editorial-prototype@0.1.0 test C:\Users\fedet\OneDrive\Documentos\Web Projects\Starlight-Engine\editor\frontend
+> vitest run --configLoader native
+
+
+ RUN  v3.2.4 C:/Users/fedet/OneDrive/Documentos/Web Projects/Starlight-Engine/editor/frontend
+
+ ✓ tests/editorial.test.ts (36 tests) 18ms
+ ✓ tests/assets.test.ts (5 tests) 7ms
+ ✓ tests/PixiEditorialRenderer.test.ts (5 tests) 67ms
+ ✓ tests/SceneView.test.tsx (4 tests) 330ms
+
+ Test Files  4 passed (4)
+      Tests  50 passed (50)
+   Start at  21:20:27
+   Duration  5.44s (transform 375ms, setup 0ms, collect 875ms, tests 422ms, environment 2.60s, prepare 766ms)
+
+
+EXIT_CODE=0

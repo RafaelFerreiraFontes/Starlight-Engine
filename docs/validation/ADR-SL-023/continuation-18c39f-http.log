@@ -1,0 +1,20 @@
+Execução adicional em 14/10/2026
+Exit code: 0
+
+{
+  "url": "http://127.0.0.1:4173/",
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "bytes": 1434002,
+  "sha256": "02d283fb9206935ffdf065b23aa7b9528ad7ac57cf9be131fa4459a822edecb1",
+  "matchesBuild": true,
+  "matchesRepository": true,
+  "inlineScripts": 2,
+  "externalScriptTags": 0
+}
+
+LocalAddress LocalPort OwningProcess
+------------ --------- -------------
+127.0.0.1         4173         37940
+
+

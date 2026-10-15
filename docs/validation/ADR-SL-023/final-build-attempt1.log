@@ -1,0 +1,16 @@
+
+> starlight-editorial-prototype@0.1.0 build C:\Users\fedet\OneDrive\Documentos\Web Projects\Starlight-Engine\editor\frontend
+> node scripts/build.mjs
+
+vite v7.1.12 building for production...
+transforming...
+✓ 2701 modules transformed.
+rendering chunks...
+[plugin vite:singlefile] 
+
+[plugin vite:singlefile] Inlining: index-BkladpVW.js
+[plugin vite:singlefile] Inlining: style-DRrG5QfO.css
+✓ built in 19.78s
+dist/index.html: 1434002 bytes; SHA256 02d283fb9206935ffdf065b23aa7b9528ad7ac57cf9be131fa4459a822edecb1
+
+EXIT_CODE=0

@@ -1,0 +1,54 @@
+{
+  "$comment": "Starlight Engine Addon Manifest Template. Adheres to ADR-SL-008, 009, 018, 021. Note: Root envelope fields for .addon (descriptor GUID vs packageId) are subject to Candidate ADR-SL-026 (Proposed / Pending Approval).",
+  "schema": "starlight.addon",
+  "schemaVersion": 1,
+  "id": "addon:0000000b-1a2b-4c3d-8e9f-0123456789ab",
+  "name": "Platformer Movement Behavior",
+  "packageId": "com.starlight.standard.platformer",
+  "version": "1.0.0",
+  "kind": "behavior",
+  "author": "Starlight Engine Authors",
+  "description": "Standard 2D platformer movement behavior with jump, double-jump and wall-cling support.",
+  "editor": {
+    "metadata": "schemas/behavior.json",
+    "icon": "assets/icon.svg",
+    "category": "Movement"
+  },
+  "runtime": {
+    "assembly": "Starlight.Standard.Platformer.dll",
+    "entryType": "Starlight.Standard.Platformer.PlatformerBehavior"
+  },
+  "capabilities": [
+    "2d.physics",
+    "2d.movement"
+  ],
+  "targets": [
+    "desktop",
+    "mobile"
+  ],
+  "aces": [
+    {
+      "id": "com.starlight.standard.platformer:jump",
+      "type": "action",
+      "name": "Jump",
+      "description": "Makes the instance perform a jump if grounded or allowed.",
+      "parameters": []
+    },
+    {
+      "id": "com.starlight.standard.platformer:is-moving",
+      "type": "condition",
+      "name": "Is Moving",
+      "description": "Tests if the instance has non-zero horizontal velocity.",
+      "parameters": [],
+      "isInvertedAllowed": true
+    },
+    {
+      "id": "com.starlight.standard.platformer:speed",
+      "type": "expression",
+      "name": "Speed",
+      "returnType": "number",
+      "description": "Returns current horizontal speed in pixels per second.",
+      "parameters": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+
+> starlight-editorial-prototype@0.1.0 typecheck C:\Users\fedet\OneDrive\Documentos\Web Projects\Starlight-Engine\editor\frontend
+> tsc --noEmit
+
+tests/PixiEditorialRenderer.test.ts(52,71): error TS2345: Argument of type 'CanvasRenderingContext2D' is not assignable to parameter of type 'GPUCanvasContext'.
+  Type 'CanvasRenderingContext2D' is missing the following properties from type 'GPUCanvasContext': __brand, configure, unconfigure, getConfiguration, getCurrentTexture
+ ELIFECYCLE  Command failed with exit code 2.
+
+EXIT_CODE=2

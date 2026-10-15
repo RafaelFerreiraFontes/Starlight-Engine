@@ -1,0 +1,7 @@
+$ vitest run --configLoader native
+
+ RUN  v3.2.4 C:/Users/fedet/OneDrive/Documentos/Web Projects/Starlight-Engine/editor/frontend
+
+ ✓ tests/editorial.test.ts (36 tests) 13ms
+ ✓ tests/SceneView.test.tsx (4 tests) 302ms
+[ELIFECYCLE] Test failed. See above for more details.

@@ -1,0 +1,37 @@
+
+> starlight-editorial-prototype@0.1.0 build C:\Users\fedet\OneDrive\Documentos\Web Projects\Starlight-Engine\editor\frontend
+> node scripts/build.mjs
+
+vite v7.1.12 building for production...
+transforming...
+✓ 2701 modules transformed.
+rendering chunks...
+[plugin vite:singlefile] 
+
+[plugin vite:singlefile] Inlining: index-BkladpVW.js
+[plugin vite:singlefile] Inlining: style-DRrG5QfO.css
+✓ built in 18.71s
+file:///C:/Users/fedet/OneDrive/Documentos/Web%20Projects/Starlight-Engine/editor/frontend/scripts/build.mjs:18
+if(writer.status!==0)throw new Error(`Build output failed: ${writer.stderr}`);
+                           ^
+
+Error: Build output failed: C:\Users\fedet\OneDrive\Documentos\Web Projects\Starlight-Engine\editor\frontend\scripts\write-build-output.ps1 : 
+
+Exce��o ao chamar "Open" com "4" argumento(s): "N�o foi poss�vel localizar o arquivo 
+
+'C:\Users\fedet\OneDrive\Documentos\Web Projects\Starlight-Engine\editor\frontend\dist\index.html'."
+
+    + CategoryInfo          : NotSpecified: (:) [write-build-output.ps1], MethodInvocationException
+
+    + FullyQualifiedErrorId : FileNotFoundException,write-build-output.ps1
+
+ 
+
+
+    at file:///C:/Users/fedet/OneDrive/Documentos/Web%20Projects/Starlight-Engine/editor/frontend/scripts/build.mjs:18:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+Node.js v24.19.0
+ ELIFECYCLE  Command failed with exit code 1.
+
+EXIT_CODE=1

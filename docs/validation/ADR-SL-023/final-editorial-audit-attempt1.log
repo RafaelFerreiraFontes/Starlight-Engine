@@ -1,0 +1,7 @@
+
+> starlight-editorial-prototype@0.1.0 audit:editorial C:\Users\fedet\OneDrive\Documentos\Web Projects\Starlight-Engine\editor\frontend
+> node scripts/audit-editorial.mjs
+
+ ELIFECYCLE  Command failed with exit code -4058.
+
+EXIT_CODE=-4058

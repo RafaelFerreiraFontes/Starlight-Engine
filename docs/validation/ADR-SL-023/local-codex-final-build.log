@@ -1,0 +1,20 @@
+Command: pnpm build
+CWD: C:/Users/fedet/OneDrive/Documentos/Web Projects/Starlight-Engine/editor/frontend
+Exit code: 0
+
+
+> starlight-editorial-prototype@0.1.0 build C:\Users\fedet\OneDrive\Documentos\Web Projects\Starlight-Engine\editor\frontend
+> vite build --configLoader native
+
+vite v7.1.12 building for production...
+transforming...
+✓ 2701 modules transformed.
+rendering chunks...
+[plugin vite:singlefile] 
+
+[plugin vite:singlefile] Inlining: index-BkladpVW.js
+[plugin vite:singlefile] Inlining: style-DRrG5QfO.css
+computing gzip size...
+../../../../../../AppData/Local/Starlight/editorial-builds/f13d0f2d6bd7/index.html  1,434.00 kB │ gzip: 371.29 kB
+✓ built in 23.00s
+

@@ -1,0 +1,14 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 35, reused 35, downloaded 0, added 0
+Progress: resolved 130, reused 118, downloaded 0, added 0
+Progress: resolved 278, reused 207, downloaded 0, added 0
+ WARN  2 deprecated subdependencies found: @types/earcut@3.2.4, whatwg-encoding@3.1.1
+Packages: +210
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 281, reused 210, downloaded 0, added 0, done
+.../esbuild@0.25.12/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.25.12/node_modules/esbuild postinstall: Done
+
+Done in 7.5s using pnpm v10.28.2
+
+EXIT_CODE=0

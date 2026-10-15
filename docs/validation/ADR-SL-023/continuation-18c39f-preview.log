@@ -1,0 +1,6 @@
+
+> starlight-editorial-prototype@0.1.0 preview C:\Users\fedet\OneDrive\Documentos\Web Projects\Starlight-Engine\editor\frontend
+> vite preview --configLoader native --host 127.0.0.1 "--port" "4173" "--strictPort"
+
+  ➜  Local:   http://127.0.0.1:4173/
+

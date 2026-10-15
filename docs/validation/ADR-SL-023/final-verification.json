@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-15T00:25:52.917Z",
+  "gates": {
+    "typecheck": {
+      "exitCode": 0,
+      "log": "final-typecheck.log"
+    },
+    "test": {
+      "exitCode": 0,
+      "log": "final-test.log"
+    },
+    "build": {
+      "exitCode": 0,
+      "log": "final-build.log"
+    },
+    "editorial-audit": {
+      "exitCode": 0,
+      "log": "final-editorial-audit.log"
+    },
+    "boundary-audit": {
+      "exitCode": 0,
+      "log": "final-boundary-audit.log"
+    }
+  },
+  "tests": 50,
+  "report": {
+    "path": "C:\\Users\\fedet\\OneDrive\\Documentos\\Web Projects\\Starlight-Engine\\docs\\ADR-SL-023_Editorial_Renderer_Validation_Report.md",
+    "sha256": "b4dc77035f0364d874c8c10b0e7a59044691e854d3150358d666ebe809c5f41e"
+  },
+  "build": {
+    "path": "C:/Users/fedet/AppData/Local/Starlight/editorial-builds/f13d0f2d6bd7/index.html",
+    "bytes": 1434002,
+    "sha256": "02d283fb9206935ffdf065b23aa7b9528ad7ac57cf9be131fa4459a822edecb1",
+    "previewAndDistMatch": true,
+    "nonInlineResourceElements": 0
+  },
+  "atlas": {
+    "width": 128,
+    "height": 32
+  },
+  "inputs": {
+    "src/rendering/pixi/PixiEditorialRenderer.ts": "42f053c2f44708b276e1eec77aee3e51d01d1f4e234b2d4ccbfe683311813488",
+    "src/rendering/pixi/OwnedAssets.ts": "45bc039b40b53b6fbb12ae926e2c05e073765291d94ebb183d14d20ebc2a40ec",
+    "tests/assets.test.ts": "63b473f355c619438772c7dee1f3525d67d2e0b1fbb47216ea64e28a5be06982",
+    "tests/PixiEditorialRenderer.test.ts": "b5e52c44ad33dea524591137bd543c085fee00704d49d0c6f46d4b5f8c1b65b1",
+    "package.json": "199f36cb3b9e40b6bf2f2f505bb02cb92fab27e3952dfa5eb8a35b6a6d46bd76",
+    "pnpm-lock.yaml": "0de5e143817886009f3da4bb7ba8e487d8aaa050345fd7b007cc0d0350d50f10",
+    "pnpm-workspace.yaml": "4ccd48ec4066d9a68d6ef7822ea7bf3f843364b4094370d37be22b3f7dea6890",
+    "vite.config.ts": "2ab6aa6994125da2b225e1c70ef9127d28280a89f1dad88e1e586f0156eb9d42",
+    "vitest.config.ts": "f2ce7bea82b12a6574793386450d0611d804636a7978caf9522282c17598de4e"
+  },
+  "limitations": [
+    "No real GPU/Tauri/MonoGame validation",
+    "C# boundary audit baseline only: root src absent"
+  ]
+}
