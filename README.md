@@ -2,7 +2,7 @@
 
 **A visual-first, C#-powered game engine built on MonoGame.**
 
-Starlight is an open-source game engine and visual authoring environment in early development. Its goal is to bring together approachable visual workflows, reusable game-object composition, and the flexibility of C# in a native desktop tool, with a portable MonoGame-based runtime. The architecture describes the intended product; the repository is currently documentation and contributor-configuration groundwork, not a usable engine.
+Starlight is an open-source game engine and visual authoring environment in early development. Its goal is to bring together approachable visual workflows, reusable game-object composition, and the flexibility of C# in a native desktop tool, with a portable MonoGame-based runtime. This repository includes an editorial frontend prototype; it is not yet a usable engine.
 
 **Em português:** Starlight é uma engine de jogos de código aberto, baseada em C# e MonoGame, com foco em criação visual para desktop. O projeto está em fase inicial; ainda não há uma engine funcional. A documentação principal está em inglês.
 
@@ -16,14 +16,15 @@ The project draws ideas from Construct 3, GDevelop, GameMaker, Godot, and other 
 
 ## Development status
 
-The bootstrap report says code generation was blocked until architectural specifications were available. The specifications are now present in `docs/`, but there are still no engine source projects or application manifests in this checkout. No gameplay, authoring, build, or export capability has been verified. A repository scaffold or the presence of design documents should not be read as a functioning engine.
+The bootstrap report predates the editorial frontend prototype. The specifications are now present in `docs/`, and `editor/frontend/` contains a React/Vite fixture and automated tests. There is still no integrated .NET Host, Tauri shell, gameplay runtime, or export workflow in this checkout.
 
 | Area | Current status |
 |---|---|
 | Architecture and product objectives | Documented in `docs/`; ADR-SL-001–022 are the approved architectural decisions. |
 | ADR-SL-023–027 | Proposed / Pending Approval; they are not implementation requirements. |
-| Editor, .NET Host, runtime, and gameplay | Not implemented in this checkout. |
-| Build, tests, Development Player, and export | No solution, project files, package manifest, or runnable path is present; not verified. |
+| Editor frontend | Editorial React/Vite fixture in `editor/frontend/`; ADR-SL-023 remains proposed. See the [frontend guide](docs/10_Starlight_Editor_Frontend_Architecture_and_Implementation_Guide.md). |
+| .NET Host, Tauri shell, runtime, and gameplay | Not implemented in this checkout. |
+| Build, tests, Development Player, and export | Frontend package and Vitest suite exist; integrated Player/export is not implemented. |
 | Contributor configuration | Custom VS Code agents and instructions are present under `.github/`. |
 | Licensing | No license file is present; licensing is pending. |
 
@@ -105,13 +106,13 @@ Current top-level contents (excluding Git internals):
 └── BOOTSTRAP_REPORT.md  # Bootstrap findings and implementation blockers
 ```
 
-There are no `src/`, `editor/`, `tests/`, `samples/`, or `templates/` directories in the current checkout.
+The `editor/frontend/` directory contains the editorial prototype, including `src/`, `tests/`, and its package manifest. There are no integrated engine/Host projects in this checkout.
 
 ## Getting started
 
 ### Development
 
-There is no verified build or run command yet. This checkout contains no `.sln`, `.csproj`, `package.json`, Tauri configuration, or test projects, so .NET restore/build/test, frontend installation, and Tauri startup commands cannot be provided accurately. The bootstrap report recorded .NET SDK 7.0.410, Node.js 24.19.0, and pnpm 12.8.1 on the inspected machine; these observations do not establish project requirements. Rust/Cargo and the Tauri CLI were not found during that inspection.
+The frontend has a `package.json` and documented commands in [its README](editor/frontend/README.md). There is no `.sln`, `.csproj`, or Tauri configuration for an integrated engine/Host workflow in this checkout. The older bootstrap report records an earlier environment and should not be used as the frontend toolchain specification.
 
 Start by reading the architecture index, approved decisions, and bootstrap report before proposing implementation work. Do not infer package versions, schemas, or supported targets from the architecture stack table alone.
 
@@ -128,6 +129,8 @@ The architecture specifications are `.docx` files that can be downloaded and ope
 - [Architecture definitions index](docs/00_Starlight_Architecture_Definitions_Index.docx)
 - [Technology stack and architecture](docs/01_Starlight_Technology_Stack_and_Architecture.docx)
 - [Editor, Layout, and Development Player](docs/02_Starlight_Editor_Layout_and_Development_Player.docx)
+- [Editor frontend architecture and implementation guide](docs/10_Starlight_Editor_Frontend_Architecture_and_Implementation_Guide.md)
+- [ADR-SL-023 editorial renderer validation report](docs/ADR-SL-023_Editorial_Renderer_Validation_Report.md)
 
 **Project data and pipeline**
 

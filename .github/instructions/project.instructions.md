@@ -5,6 +5,8 @@ applyTo: "**"
 
 # Starlight Engine — Especificação Arquitetural Normativa (`project.md`)
 
+Antes de modificar ou estender `editor/frontend/`, consulte o [guia de arquitetura e implementação do frontend](../../docs/10_Starlight_Editor_Frontend_Architecture_and_Implementation_Guide.md). O guia mapeia a implementação atual e permanece subordinado aos ADRs aprovados deste documento.
+
 Este documento consolida os **Contratos Normativos Imutáveis** da Starlight Engine derivados dos [Objetivos com a engine](../../docs/Objetivos%20com%20a%20engine.md), das decisões aprovadas em [Registro de Decisões Arquiteturais (ADRs 001 a 022)](../../docs/Quest%C3%B5es%20em%20Aberto%20-%20Decis%C3%B5es.md), das erratas de coerência de 14 de outubro de 2026 e do corpo técnico dos documentos de arquitetura [00](../../docs/00_Starlight_Architecture_Definitions_Index.docx) a [09](../../docs/09_Starlight_Event_Sheet_and_CSharp_Compilation_Pipeline.docx).
 
 ---
