@@ -1,0 +1,4 @@
+allowBuilds:
+  esbuild: true
+# Windows target: the calling environment does not put cmd.exe on PATH.
+scriptShell: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
